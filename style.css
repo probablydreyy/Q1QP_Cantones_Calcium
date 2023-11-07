@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+*{
+    margin: 0vh;
+}
+
+#navbar{
+    background-color: #737373;
+    height: 8vh;
+    width: 100%;
+    padding: 1vh;
+    position: fixed;
+    left: 0%;
+}
+
+#logo img{
+    width:7vh;
+    height: 7vh;
+    margin-left: 1vh;
+}
+
+#linksgroup{
+    position: absolute;
+    left: 25vw;
+    top: 2vh;
+    width: 70vw;
+    height: 1vh;
+}
+
+.links{
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline;
+    font-size: 45px;   
+}
+
+.links:hover{
+    background-color: #D9D9D9;
+    transition: .1s;
+    
+    border: 2px solid;
+    border-radius: 25px;   
+}
+
+.links a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#home a, #background a,#reference a,#data a,#aboutme a{
+    color: #000;
+}
+
+#footer{
+    background-color: #737373;
+    height: 8vh;
+    width: 100%;
+    padding: 1vh;
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+}
+
+#github img{
+    position:absolute;
+    bottom: 15px;;
+    left: 195px;
+    width: 12vh;
+    height: 7vh;
+}
+
+#snapchat img{
+    position:absolute;
+    bottom: 15px;
+    left: 305px;
+    width: 7.5vh;
+    height: 7vh;
+}
+
+#instagram img{
+    position:absolute;
+    bottom: 15px;
+    left: 130px;
+    width: 7.5vh;
+    height: 7vh;
+}
+
+#facebook img{
+    position:absolute;
+    bottom: 15px;
+    left: 40px;
+    width: 7.5vh;
+    height: 7vh;
+}
+
+#copyright p{
+    font-size: 1vw;
+    position: fixed;
+    bottom: 3.5vh;
+    right: 5vh;
+}
+
+.introduction{
+    position: relative;
+    top: 30vh;
+    text-align: center;   
+}
+
+.introduction h1{
+    font-family: 'Sanchez', serif;
+    font-weight: normal;
+    font-size: 10vh;  
+}
+
+.introduction h2{
+    font-family: 'Sanchez', serif;
+    font-weight: normal;
+    font-size: 10vh; 
+    color: #5CE1E6 
+}
+
+.introduction h3{
+    font-family: 'Sanchez', serif;
+    font-weight: normal;
+    font-size: 10vh;  
+}
+
+.introduction p{
+    font-family: sans-serif;
+    font-size: 3.5vh;
+}
+
+.background{
+    position: relative;
+    top: 20vh;
+}
+
+.background h1{
+    font-family: 'Sanchez', serif;
+    font-size: 7.5vh;
+    text-align: center;
+    font-weight: normal;
+}
+
+.background p{
+    
+    font-family: sans-serif;
+    padding: 1vh 40vh;
+    margin: 0 0;
+    box-sizing: border-box;
+    font-size: 3.5vh;
+    background-color: #D9D9D9;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.Qualitative1{
+    background-color: #FFF500;
+    border: 2px solid;
+    position: relative;
+    width: 6%;
+    top: 11vh;
+    font-family: sans-serif;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.Qualitative2{
+    background-color: #FFF500;
+    border: 2px solid;
+    position: relative;
+    width: 6%;
+    top: 6vh;
+    font-family: sans-serif;
+    font-size: 2vh;
+    text-align: center;
+    left: 70vh;
+}
+
+.regiontable{
+    height: 15vh;
+    width: 50vh;
+    top: -15.5vh;
+    position: relative;
+    left: 13vh;
+}
+
+.regiongraph{
+    height: 15vh;
+    width: 50vh;
+    top: 1vh;
+    position: relative;
+    left: -37.5vh;
+}
+
+.incometable{
+    height: 15vh;
+    width: 50vh;
+    top: -15.5vh;
+    position: relative;
+    left: -16vh;
+}
+
+.incomegraph{
+    height: 15.1vh;
+    width: 50vh;
+    top: -14vh;
+    position: relative;
+    left: 84.8vh;
+}
+
+.Qualitative2{
+    background-color: #FFF500;
+    border: 2px solid;
+    position: relative;
+    width: 6%;
+    top: 6vh;
+    font-family: sans-serif;
+    font-size: 2vh;
+    text-align: center;
+    left: 70vh;
+}
+
+.Quantitative1{
+    background-color: #FFF500;
+    border: 2px solid;
+    position: relative;
+    width: 6%;
+    top: 40vh;
+    font-family: sans-serif;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.Quantitative2{
+    background-color: #FFF500;
+    border: 2px solid;
+    position: relative;
+    width: 6%;
+    top: 30vh;
+    font-family: sans-serif;
+    font-size: 2vh;
+    text-align: center;
+    left: 70vh;
+}
+
+.householdtable{
+    height: 15.1vh;
+    width: 50vh;
+    top: -5.5vh;
+    position: relative;
+    left: 13vh;
+    display: block;
+}
+
+.householdgraph{
+ height: 15.2vh;
+ width: 50vh;
+ top: -5vh;
+ position: relative;
+ left: 13vh;
+}
+
+.totalfoodtable{
+    height: 15.1vh;
+    width: 50vh;
+    top: -20vh;
+    position: relative;
+    left: 35vh;
+}
+
+.totalfoodgraph{
+    height: 15.2vh;
+    width: 50vh;
+    top: -4vh;
+    position: relative;
+    left: -15.5vh;
+}
+
+.reference{
+    position: relative;
+    top: 20vh;
+}
+
+.reference h1{
+    font-family: 'Sanchez', serif;
+    font-size: 7.5vh;
+    text-align: center;
+    font-weight: normal;
+}
+
+.reference p{
+    
+    font-family: sans-serif;
+    padding: 1vh 40vh;
+    margin: 0 0;
+    box-sizing: border-box;
+    font-size: 2.5vh;
+    background-color: #D9D9D9;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.Myself{
+    border-radius: 100px;
+    border: 5px solid;
+    width: 400px;
+    height: 400px;
+    top: 11vh;
+    position: relative;
+    left: 70vh
+}
+
+.AboutMe{
+    background-color: #004AAD;
+    font-family: 'Sanchez', serif;
+    border: 2px solid;
+    border-radius: 25px;
+    width: 6%;
+    font-size: 2vh;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.Explanation{
+    font-family: sans-serif;
+    padding: 1vh 40vh;
+    margin: 0 0;
+    box-sizing: border-box;
+    font-size: 2.5vh;
+    background-color: #D9D9D9;
+    border: 2px solid;
+    border-radius: 25px;
+}
